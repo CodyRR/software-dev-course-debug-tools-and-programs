@@ -1,0 +1,12 @@
+
+The Devtools were very different to work with.
+
+In cart.js, one of the first checks was at line 9. The for loop tried to include the length of the cartItems. When it reached the last index, cartItems did not have that index so it triggered an error.
+
+Lines 16-19 included a check to make sure that the discountRate was a number.  If it wasn't, then the console log would trigger and the original total would be returned.
+
+Lines 29-33 also have the same number check for the total.
+
+The last change to the code was at line 45.  The html did not acknowledge the \n in the receipt. That was changed to innerHTML and <pre> tags were added.
+
+Breakpoints were added to lines 10, 17, and 29 to see values to ensure function.
