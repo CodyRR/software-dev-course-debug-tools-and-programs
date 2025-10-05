@@ -11,4 +11,4 @@ The last change to the code was at line 45.  The html did not acknowledge the \n
 
 Breakpoints were added to lines 10, 17, and 29 to see values to ensure function.
 Not seen in the code, but there were tests for the edge cases.  I tested an empty cart, a cart with 1 item, if the discount was 0 or 1 or not a number.
-They had the same and expected results.
+They had the same and expected results
